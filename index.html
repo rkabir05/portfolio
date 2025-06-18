@@ -30,7 +30,7 @@
       class="header-main-box width-1400px margin-auto display-flex justify-content-between margin-top-20px align-items-center">
       <!-- header-logo start -->
       <div class="header-logo width-5-percent ">
-        <img class="maxwith-100-pecent" src="images/logo-reza.jpg" alt="logo reza">
+        <a href="index.html"><img class="maxwith-100-pecent" src="images/logo-reza.jpg" alt="Main Logo"></a>
       </div>
       <!-- header-logo end -->
       <div class="header-nav-bar">
@@ -59,8 +59,24 @@
     </div>
     <!-- header-main-box end -->
 
+
+    <!-- slider-main start -->
+    <div class="slider-main width-1400px margin-top-50px">
+
+      <!-- bxslider-item start -->
+      <div class="bxslider-item">
+      <div><img src="https://picsum.photos/id/22/1400/500"></div>
+      <div><img src="https://picsum.photos/id/23/1400/500"></div>
+      <div><img src="https://picsum.photos/id/24/1400/500"></div>
+      </div>
+      <!-- bxslider-item end -->
+
+    </div>
+    <!-- slider-main end -->
+
+
     <!-- my-project start -->
-    <div class="my-project margin-top-50px font-size-22px">
+    <div class="my-project margin-top-50px font-size-22px text-align-center">
       <h2><a href="#" class="text-decoration-none color-black">আমার প্রজেক্টসমূহ </a></h2>
     </div>
     <!-- my-project end -->
@@ -289,10 +305,10 @@
         <div class="footer-single-text">
           <nav>
             <ul class="list-style-none">
-              <li class="margin-top-5px"><a href="#" class="text-decoration-none color-black">প্রাইভেসি পলিসি</a></li>
-              <li class="margin-top-5px"><a href="#" class="text-decoration-none color-black">টার্মস এন্ড কন্ডিশন</a>
+              <li class="margin-top-5px"><a href="privacy-policy.html" class="text-decoration-none color-black">প্রাইভেসি পলিসি</a></li>
+              <li class="margin-top-5px"><a href="terms-and-condition.html" class="text-decoration-none color-black">টার্মস এন্ড কন্ডিশন</a>
               </li>
-              <li class="margin-top-5px"><a href="#" class="text-decoration-none color-black">রিফান্ড পলিসি</a></li>
+              <li class="margin-top-5px"><a href="refund-policy.html" class="text-decoration-none color-black">রিফান্ড পলিসি</a></li>
             </ul>
           </nav>
         </div>
@@ -361,6 +377,13 @@
   <!-- footer-main-box end -->
 
 
+  <script>
+      $('.bxslider-item').bxSlider({
+  mode: 'horizontal',
+  slideMargin: 5,
+  pager: false
+});
+  </script>
 
 </body>
 

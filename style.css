@@ -784,3 +784,10 @@ i.fa-solid.fa-greater-than {
 }
 
 
+
+
+.slider-main .bx-wrapper {
+    box-shadow: none;
+    border: none;
+    background: none;
+}
