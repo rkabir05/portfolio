@@ -1,0 +1,786 @@
+* {
+    CONTAIN-INTRINSIC-BLOCK-SIZE: AUTO 100PX;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+
+  
+  @font-face {
+      font-family: SolaimanLipiNormal;
+      src: url('fonts/solaimanlipi_20-04-07.eot');
+      src: url('fonts/solaimanlipi_20-04-07.eot')format('embedded-opentype'), url('fonts/solaimanlipi_20-04-07.woff') format('woff'), url('fonts/solaimanlipi_20-04-07.ttf') format('truetype'), url('fonts/solaimanlipi_20-04-07.svg#SolaimanLipiNormal') format('svg');
+  }
+
+  
+  body {
+      font-family: SolaimanLipiNormal;
+      font-size: 15px;
+      line-height: 150%;
+      font-weight: normal !important;
+  }
+
+  body {
+  background-image: url("images/background.jpg");
+  background-size: cover;
+  opacity: 1;
+  background-attachment: fixed;
+}
+
+
+  a{
+    font-weight: normal !important;
+  }
+
+
+main {
+    /* background: white; */
+    font-size: 14px;
+    color: black;
+    width: 1400px;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.width-1400px {
+    width: 1400px;
+}
+
+.width-50px {
+    width: 50px;
+}
+
+.height-50px {
+    height: 50px;
+}
+
+.width-25px {
+    width: 25px;
+}
+
+.height-25px {
+    height: 25px;
+}
+
+.width-40px {
+    width: 40px;
+}
+
+.height-40px {
+    height: 40px;
+}
+
+
+
+
+.margin-top-25px {
+    margin-top: 25px;
+}
+
+.margin-bottom-25px {
+    margin-bottom: 25px;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.list-style-none {
+    list-style: none;
+}
+
+.margin-left-15px {
+    margin-left: 15px;
+}
+
+.padding-top-20px {
+    padding-top: 20px;
+}
+
+.margin-top-40px {
+    margin-top: 40px;
+}
+
+.padding-bottom-20px {
+    padding-bottom: 20px;
+}
+
+.display-block {
+  display: block;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.padding-5px {
+    padding: 5px;
+}
+.margin-left-auto {
+    margin-left: auto;
+}
+
+.margin-right-auto {
+  margin-right: auto;
+}
+
+.width-50-percent {
+    width: 50%;
+}
+
+.target-blank {
+    tar
+}
+
+
+.color-facebook {
+    color: #3b5998;
+}
+
+.color-twitter {
+    color: #1DA1F2;
+}
+
+.color-youtube {
+    color: #FF0000;
+}
+
+.color-#0e76a8 {
+    color: #0e76a8;
+}
+
+.color-instagram {
+    color: #833AB4;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.background-color-gray {
+    background-color: gray;
+}
+
+.border-top-none {
+    border: none;
+}
+
+.border-bottom-none {
+    border: none;
+}
+
+.border-left-none {
+    border: none;
+}
+
+.border-right-none {
+    border: none;
+}
+
+.color-white {
+    color: white;
+}
+
+.padding-top-10px {
+    padding-top: 10px;
+}
+
+.padding-bottom-10px {
+    padding-bottom: 10px;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.display-inline-block {
+    display: inline-block;
+}
+
+.font-size-22px {
+    font-size: 22px;
+}
+
+.font-size-15px {
+    font-size: 15px;
+}
+
+.font-size-20px {
+    font-size: 20px;
+}
+
+.font-size-25px {
+    font-size: 15px;
+}
+
+
+.margin-top-5px {
+    margin-top: 5px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.border-redius-15-percent {
+    border-radius: 15%;
+}
+
+.border-redius-50-percent {
+    border-radius: 50%;
+}
+
+.border-redius-20-percent {
+    border-radius: 20%;
+}
+
+.border-redius-30-percent {
+    border-radius: 30%;
+}
+
+.border-redius-10-percent {
+    border-radius: 10%;
+}
+
+.text-decoration-none {
+    text-decoration: none;
+}
+
+.color-black {
+    color:black;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+
+.wodth-1024px {
+    width: 1024px;
+}
+
+.padding-15px {
+    padding: 15px;
+}
+
+.width-60-percent {
+    width: 60%;
+}
+
+.width-30-percent {
+    width: 30%;
+}
+
+.width-35-percent {
+    width: 35%;
+}
+
+.width-65-percent {
+    width: 65%;
+}
+
+.maxwith-100-pecent {
+    max-width: 100%;
+}
+
+.width-100-percent {
+    width: 100%;
+}
+
+.border-box-2px-gray {
+    border: 2px solid gray;
+}
+
+
+.padding-20px {
+    padding: 20px 0;
+}
+
+.width-21-percent {
+    width: 21%;
+}
+
+.width-22-percent {
+    width: 22%;
+}
+
+.width-23-percent {
+    width: 23%;
+}
+
+.width-24-percent {
+    width: 24%;
+}
+
+
+.border-top-3px-red {
+    border-top: 3px solid red;
+}
+
+
+.position-relative {
+    position: relative;
+}
+
+.width-31-percent {
+    width: 31%;
+}
+
+.width-32-percent {
+    width: 32%;
+}
+
+.width-30-percent {
+    width: 30%;
+}
+
+.width-75-percent {
+    width: 70%;
+}
+
+.border-top-2px-gray {
+    border-top: 2px solid gray;
+}
+
+.border-bottom-2px-gray {
+    border-bottom: 2px solid gray;
+}
+
+.border-bottom-1px-gray {
+    border-bottom: 1px solid gray;
+}
+
+.border-right-2px-gray {
+    border-right: 2px solid gray;
+}
+
+.border-left-2px-gray {
+    border-left: 2px solid gray;
+}
+
+
+.padding-right-22px {
+    padding-right: 22px;
+}
+
+.padding-bottom-22px {
+    padding-bottom: 22px;
+}
+
+.paddiing-bottom-15px {
+    padding-bottom: 15px;
+}
+
+.paddiing-bottom-18px {
+    padding-bottom: 18px;
+}
+
+.paddiing-bottom-10-px {
+    padding-bottom: 10px;
+}
+
+.padding-top-26px {
+    padding-top: 26px;
+}
+
+.width-20-percent {
+    width: 20%;
+}
+
+.padding-right-15px {
+    padding-right: 15px;
+}
+
+.margin-bottom-35px {
+    margin-bottom: 35px;
+}
+
+.width-18-percent {
+    width: 19%;
+}
+
+.width-17-percent {
+    width: 18%;
+}
+
+.justify-content-end {
+    justify-content: end;
+}
+
+.justify-content-left {
+    justify-content: left;
+}
+
+.font-size-18px {
+    font-size: 18px;
+}
+
+.font-size-24px {
+    font-size: 24px;
+}
+
+.margin-left-10px {
+    margin-left: 10px;
+}
+
+.margin-left-20px {
+    margin-left: 20px;
+}
+.margin-top-10px {
+    margin-top: 10px;
+}
+
+
+.margin-top-20px {
+    margin-top: 20px;
+}
+
+.margin-bottom-10px {
+    margin-bottom: 10px;
+}
+
+
+.width-50-percent {
+    width: 50%;
+}
+
+.margin-top-10px {
+    margin-top: 10px;
+}
+
+.margin-bottom-10px {
+    margin-bottom: 10px;
+}
+
+.width-45-percent {
+    width: 45%;
+}
+
+.margin-right-19px {
+    margin-right: 19px;
+}
+
+.margin-right-20px {
+    margin-right: 20px;
+}
+
+.margin-right-21px {
+    margin-right: 21px;
+}
+
+.margin-right-21px {
+    margin-right: 21px;
+}
+
+.margin-right-22px {
+    margin-right: 22px;
+}
+
+.border-right-2px-gray {
+    border-right: 2px solid gray;
+}
+
+.padding-right-20px {
+    padding-right: 20px;
+}
+
+.padding-right-21px {
+    padding-right: 21px;
+}
+
+.padding-right-22px {
+    padding-right: 22px;
+}
+
+.padding-right-23px {
+    padding-right: 23px;
+}
+
+.padding-right-24px {
+    padding-right: 24px;
+}
+
+.padding-right-25px {
+    padding-right: 25px;
+}
+
+.padding-right-26px {
+    padding-right: 26px;
+}
+
+.padding-right-27px {
+    padding-right: 27px;
+}
+.padding-right-28px {
+    padding-right: 28px;
+}
+
+.padding-right-34px {
+    padding-right: 345px;
+}
+.padding-right-19px {
+    padding-right: 19px;
+}
+
+.padding-right-18px {
+    padding-right: 18px;
+}
+
+.padding-right-17px {
+    padding-right: 17px;
+}
+
+.padding-right-16px {
+    padding-right: 16px;
+}
+
+.padding-right-18px {
+    padding-right: 18px;
+}
+
+.padding-right-30px {
+    padding-right: 30px;
+}
+
+.padding-right-31px {
+    padding-right: 31px;
+}
+
+.padding-right-32px {
+    padding-right: 32px;
+}
+
+.padding-right-33px {
+    padding-right: 33px;
+}
+
+.padding-right-29px {
+    padding-right: 29px;
+}
+
+.padding-right-29px {
+    padding-right: 28px;
+}
+
+.width-29-percent {
+    width: 29%;
+}
+
+.width-28-percent {
+    width: 28%;
+}
+
+.width-27-percent {
+    width: 27%;
+}
+
+.width-33-percent {
+    width:33% ;
+}
+
+.width-34-percent {
+    width:34% ;
+}
+
+
+.border-left-2px-gray {
+    border-left: 2px solid gray;
+}
+
+.paddiing-left-22px {
+    padding-left: 22px;
+}
+
+.width-25-percent {
+    width: 25%;
+}
+
+.width-80-percent {
+    width: 80%;
+}
+
+.width-40-percent {
+    width: 40%;
+}
+
+.font-size-20px {
+    font-size: 20px;
+}
+
+
+.transition-all-esc-in-out {
+    transition: 0.5s all ease-in-out;
+}
+
+.justify-content-space-evenly {
+    justify-content: space-evenly;
+}
+
+.align-item-center {
+    align-items: center;
+}
+
+.background-repeat {
+    background-repeat: no-repeat;
+}
+
+.margin-auto {
+    margin: auto;
+}
+
+.margin-top-20px {
+    margin-top: 20px;
+}
+
+.width-1200px {
+   width: 1200px; 
+}
+
+.text-align-justify{
+    text-align: justify;
+}
+
+.width-1000px {
+   width: 1000px; 
+}
+
+.margin-top-50px {
+    margin-top: 50px;
+}
+
+.margin-top-100px {
+    margin-top: 100px;
+}
+
+.margin-top-300px {
+    margin-top: 300px;
+}
+
+.margin-bottom-50px {
+    margin-bottom: 50px;
+}
+
+.width-5-percent {
+    width: 5%;
+}
+.width-3-percent {
+    width: 3%;
+}
+
+.width-2-percent {
+    width: 2%;
+}
+
+
+
+.color-green {
+    color: green;
+}
+
+.color-green {
+    color: green !important;
+}
+
+.single-page-heading  {
+    line-height: 43px;
+}
+
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.background-color-green-2 {
+    background-color: #82e0aa;
+}
+
+.header-nav-bar>nav>ul>li {
+    list-style: none;
+}
+
+.header-nav-bar>nav>ul>li>a {
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    margin-left: 15px;
+}
+
+.log-in-sign-in-text a {
+    font-size: 25px;
+}
+
+i.fa-solid.fa-greater-than {
+    margin-left: 8px;
+    color: white;
+}
+
+
+.log-in-sign-in {
+    background-color: green;
+    border-radius: 18px;
+    padding: 12px;
+}
+
+
+.header-logo.width-5-percent {
+    margin-right: 750px;
+}
+
+
+
+.header-logo.width-5-percent img {
+    border-radius: 50px;
+}
+
+.footer-four-box {
+    padding: 30px 0;
+}
+
+.footer-single-text>nav>ul>li> a:hover {
+    color: white;
+}
+
+
+.social-media>nav>ul>li {
+    margin-right: 20px;
+    background: white;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+
+.project-single-box {
+    width: 30%;
+}
+
+
+.my-project>h2 a:hover,
+.project-name>h2 a:hover {
+    text-decoration: underline;
+}
+
+
+.project-img img {
+    border-radius: 12px;
+    /* overflow: hidden; */
+}
+
+.my-project>h2 a:hover,
+.project-name>h2 a:hover {
+    color: wheat;
+}
+
+
