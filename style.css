@@ -38,7 +38,6 @@ main {
     /* background: white; */
     font-size: 14px;
     color: black;
-    width: 1400px;
     margin: auto;
     margin-top: 15px;
 }
@@ -739,10 +738,6 @@ i.fa-solid.fa-greater-than {
 }
 
 
-.header-logo.width-5-percent {
-    margin-right: 750px;
-}
-
 
 
 .header-logo.width-5-percent img {
@@ -767,7 +762,7 @@ i.fa-solid.fa-greater-than {
 
 
 .project-single-box {
-    width: 30%;
+    width: 32%;
 }
 
 

@@ -1,4 +1,9 @@
-  @media only screen and (max-width: 600px){
+  @media only screen and (max-width:767px){
+
+
+    /* body {
+        background: red;
+    } */
 
     .header-main-box {
         padding: 0 29px;
@@ -8,15 +13,15 @@
     }
 
     .project-single-box {
-    width: 47%;
+    width: 47.5%;
 }
 
 .project-main-box {
-    margin: 50px;
+    margin: 25px;
 }
 
 .slider-main {
-    padding: 0 50px;
+    padding: 0 25px;
 }
 
 .project-name>h2>a {
@@ -30,18 +35,31 @@
 
 .background-color-green-2 {
     background-color: #82e0aa;
-    width: 1400px;
+    
 }
 
 .social-media {
-    padding: 0 0 50px 50px;
+    padding: 0 0 25px 25px;
 }
 
 .footer-four-box {
-    padding: 30px 0 50px 50px;
+    padding: 30px 0 25px 25px;
+}
+
+.width-1400px{
+    width: auto;
+}
+
+.footer-four-box {
+    display: inline;
 }
 
   }
 
 
   
+  @media only screen and (max-width:480px){ 
+    .d-flex-direction-column-mobile-version{
+        flex-direction: column;
+    }
+  }
