@@ -33,6 +33,12 @@
     font-weight: normal !important;
   }
 
+  .header-nav-bar>nav>ul>li>a {
+    text-decoration: none;
+    font-size: 19px;
+    color: black;
+    margin-left: 15px;
+}
 
 main {
     /* background: white; */
@@ -782,11 +788,24 @@ i.fa-solid.fa-greater-than {
     color: wheat;
 }
 
+.slider-main .bx-wrapper {
+    margin-bottom: 0;
+}
 
 
+
+
+.footer-three-box.display-flex.justify-content-between {
+    width: 73%;
+}
 
 .slider-main .bx-wrapper {
     box-shadow: none;
     border: none;
     background: none;
+}
+
+.footer-single-heading.margin-bottom-10px>h2>a {
+    font-size: 25px;
+    font-weight: bold;
 }

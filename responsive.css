@@ -16,6 +16,73 @@
     width: 47.5%;
 }
 
+.width-5-percent {
+    width: 9%;
+}
+
+.margin-top-18px {
+    margin-top: 18px !important;
+}
+
+.footer-single-text {
+    text-align: justify;
+}
+
+.social-media {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+.social-media>nav>ul>li {
+    width: 30px;
+    height: 30px;
+}
+
+.social-media>nav>ul>li>a {
+    font-size: 17px;
+}
+
+.footer-single-first-box {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 25px;
+    padding: 0 25px;
+}
+
+.footer-single-heading.margin-bottom-10px {
+    font-size: 14px;
+}
+
+
+.footer-three-box.display-flex.justify-content-between {
+    width: 100%;
+    padding: 0 25px;
+
+}
+
+.slider-main .bx-wrapper {
+    margin-bottom: 0;
+}
+
+
+.project-name>h2>a {
+    font-size: 18px;
+        color: white;
+        margin-top: 10px;
+
+}
+
+.footer-single-heading.margin-bottom-10px>h2>a {
+    font-size: 20px;
+}
+
+.three-box-width-30-precent {
+    width: 30%;
+}
+
 .project-main-box {
     margin: 25px;
 }
@@ -24,14 +91,11 @@
     padding: 0 25px;
 }
 
-.project-name>h2>a {
+.my-project>h2>a {
     color: white;
-    font-size: 25px;
+    font-size: 32px;
 }
 
-.project-name>h2 {
-    margin-top: 13px;
-}
 
 .background-color-green-2 {
     background-color: #82e0aa;
@@ -52,6 +116,10 @@
 
 .footer-four-box {
     display: inline;
+}
+
+.header-nav-bar>nav>ul>li>a {
+    font-size: 18px;
 }
 
   }
