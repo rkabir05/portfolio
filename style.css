@@ -100,7 +100,7 @@ main {
 }
 
 .justify-content-between {
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .list-style-none {
