@@ -100,7 +100,7 @@ main {
 }
 
 .justify-content-between {
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .list-style-none {
@@ -809,4 +809,26 @@ i.fa-solid.fa-greater-than {
 .footer-single-heading.margin-bottom-10px>h2>a {
     font-size: 25px;
     font-weight: bold;
+}
+
+
+
+.section-title-style h2 {
+    display: inline-block;
+    font-family: "Open Sans", sans-serif !important;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 38px;
+    line-height: 50px;
+    font-weight: 700;
+    color: #222222;
+    font-size: 40px;
+    font-weight: 500;
+    position: relative;
+    width: auto;
+    padding: 0 80px;
+}
+
+.justify-content-space-evenly {
+    justify-content: space-evenly;
 }
